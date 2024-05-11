@@ -1,0 +1,58 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url("bgku.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+    background-color: black;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .namacorp {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+    color: aliceblue;
+  }
+  
