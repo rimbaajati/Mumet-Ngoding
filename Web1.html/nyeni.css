@@ -1,58 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Orbitron:wght@400..900&display=swap");
 body {
-    font-family: "Roboto", sans-serif;
-    background-image: url("bgku.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .header {
-    display: flex;
-    align-items: center; 
-    padding: 10px;
-    background-color: black;
-  }
-  
-  .logo {
-    margin-right: 10px;
-  }
-  
-  .namacorp {
-    font-size: 20px;
-    color: white;
-  }
-  
-  .navbar {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    overflow: hidden;
-    text-align: center;
-  }
-  
-  .navbar ul {
-    display: inline;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar li {
-    display: inline;
-  }
-  
-  .navbar a {
-    display: inline-block;
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
-    color: black;
-    font-weight: 200;
-    line-height: 1.5;
-  }
-  
-  .navbar a:hover {
-    background-color: #555;
-    color: aliceblue;
-  }
-  
+  font-family: "Roboto", sans-serif;
+  background-image: url("bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  position: relative;
+}
+.form-search {
+  position: absolute;
+  top:10px;
+  right: 10px;
+  background-color: aqua;
+}
+.form-search form{
+  background-color: #333;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.namacorp {
+  font-size: 15px;
+  color: white;
+  font-style: italic;
+  font-family: "Lexend Exa", sans-serif;
+  font-optical-sizing: auto;
+}
+.namacorp a:hover{
+  background-color:red ;
+  font-size: 10px;
+}
+
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  display: block;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  line-height: 1.5;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.navbar a:hover {
+  background-color: #333;
+}
